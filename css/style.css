@@ -4,8 +4,11 @@ body{
 }
 
 h1{
-
     color: brown;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    background: black;
 }
 .exemplo-back{
     height: 300px;
