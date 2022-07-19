@@ -1,0 +1,21 @@
+body{
+    background: #ccc;
+
+}
+
+.vermelho{
+    color: darkred;
+}
+
+.center{
+    text-align: center;
+}
+
+.font{
+    font-size: 40px;
+}
+
+#test{
+    color: blue;
+    background: yellow;
+}
