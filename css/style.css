@@ -1,5 +1,6 @@
 body{
     background-color: antiquewhite;
+    margin-bottom: 100px;
 
 }
 
@@ -9,6 +10,7 @@ h1{
     border-radius: 20px;
     text-align: center;
     background: black;
+    
     
 }
 
@@ -21,6 +23,22 @@ p{
     background-color: goldenrod;
     background-image: url("/img/fundo.jpg");
     background-size: cover;
+    margin-bottom: 100px;
    
 }
+.btn{
+    margin-left: 30%;
+    background-color: black;
+    color: aliceblue;
+    padding-top: 15px;
+    padding-right: 19px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    text-decoration: none;
 
+    
+    border-radius: 20px;
+}
+.btn:hover{
+    background: blue;
+}
