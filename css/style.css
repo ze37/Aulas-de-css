@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&family=Roboto:wght@400;500;700&display=swap');
 body{
     background-color: antiquewhite;
     margin-bottom: 100px;
@@ -10,6 +12,7 @@ h1{
     border-radius: 20px;
     text-align: center;
     background: black;
+    font-family: 'Dancing Script', cursive;
     
     
 }
@@ -17,6 +20,14 @@ h1{
 p{
     margin-bottom: 40px;
     text-align: center;
+    font-family: 'Pacifico', cursive;
+
+
+
+    font-size: 25px;
+   
+
+    
 }
 .exemplo-back{
     height: 300px;
@@ -47,6 +58,7 @@ p{
     height: 200px;
     background-color: blueviolet;
     padding-top:100px;
+    margin-bottom: 50px;
     color: white;
     text-align: center;
 }
