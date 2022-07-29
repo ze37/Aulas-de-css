@@ -1,45 +1,11 @@
-ul{
-    background: black;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    overflow: hidden;
+#meuid{
+    color: brown;
 }
 
-li{
-    float: left;
+.minhaclass{
+    color: blueviolet;
 }
 
-li a, .dropbtn{
-    display: inline-block;
-    color: white;
-    padding: 14px 16px;
-    text-align: center;
-}
-
-li a:hover, .dropdown:hover .dropbtn{
-    background: rgb(224, 5, 34);
-  
-}
-
-li .dropdown{
-    display:inline-block;
-}
-.dropdown-cont{
-    display: none;
-    position:absolute;
-    background: white;
-    width:150px;
-}
-.dropdown-cont a{
-    color:black;
-    display: block;
-    text-align: left;
-    border: 1px solid rgb(249, 245, 245);
-}
-.dropdown-cont a:hover{
-    color:white;
-}
-.dropdown:hover .dropdown-cont{
-    display: block;
+h1{
+    color: bisque !important;
 }
