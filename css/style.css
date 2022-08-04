@@ -1,6 +1,17 @@
-#gradiente{
-    text-align: center;
-    width:100%;
-    height:300px;
-    background-image: radial-gradient( red , blue);
+h1{
+    text-shadow: 7px 12px 15px gray;
+}
+
+.azul{
+    color: rgb(194, 194, 11);
+    text-shadow: 2px 2px 4px black;
+}
+
+.box{
+    width: 100%;
+    height: 200px;
+    background: gold;
+    box-shadow: 2px 3px 18px red;
+    border-radius: 30px;
+
 }
