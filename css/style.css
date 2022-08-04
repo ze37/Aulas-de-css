@@ -1,34 +1,48 @@
-/* smartphones 600px para baixo */
-
-@media only screen and (max-width:600px) {
-    body{
-        background: blue
-    }
+* {
+    box-sizing: border-box;
 }
-/* Despositivos um pouco maiores mais ainda pequenos */
-@media only screen and (min-width:600px) {
-    body{
-        background: green
-    }
-}
-/*Despositivos Medios (tablets deitados)*/
-@media only screen and (min-width:768px) {
-    body{
-        background: yellow
-    }
 
+body{
+    margin: 0;
 }
-/* Despositivos Largos (Laptops desktops)*/
-@media only screen and (min-width:992px) {
-    body{
-        background: rgb(255, 51, 0)
-    }
 
+.header{
+    background:greenyellow;
+    padding:80px;
+    text-align: center;
+    color:blueviolet;
+    
 }
-/* Despositivos super largos (Telas Maiores laptops)*/
-@media only screen and (min-width:1200px) {
-    body{
-        background: rgb(20, 20, 20)
-    }
+.navbar{
+    display:flex;
+    justify-content: center;
+    background: black;
+}
 
+.navbar a{
+    color:white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+.navbar a:hover{
+    background: gray;
+    color: black;
+    font-weight: bold;
+}
+.corpo{
+    display: flex;
+    flex-flow: row wrap;
+}
+.card{
+    flex-grow:1;
+    background: rgb(201, 194, 194);
+    height: 200px;
+    margin: 1px;
+}
+
+@media screen and (max-width:600px){
+    .navbar{
+        flex-direction: column;
+    }
 }
