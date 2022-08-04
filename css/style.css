@@ -1,11 +1,6 @@
-#meuid{
-    color: brown;
-}
-
-.minhaclass{
-    color: blueviolet;
-}
-
-h1{
-    color: bisque !important;
+#gradiente{
+    text-align: center;
+    width:100%;
+    height:300px;
+    background-image: radial-gradient( red , blue);
 }
