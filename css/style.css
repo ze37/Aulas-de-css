@@ -1,28 +1,34 @@
-h1{
-    text-shadow: 7px 12px 15px gray;
-}
+/* smartphones 600px para baixo */
 
-.azul{
-    color: rgb(194, 194, 11);
-    text-shadow: 2px 2px 4px black;
+@media only screen and (max-width:600px) {
+    body{
+        background: blue
+    }
 }
-
-.box{
-    width: 40%;
-    height: auto;
-    text-align: center;
-    background: gold;
-    box-shadow: 2px 3px 18px red;
+/* Despositivos um pouco maiores mais ainda pequenos */
+@media only screen and (min-width:600px) {
+    body{
+        background: green
+    }
 }
+/*Despositivos Medios (tablets deitados)*/
+@media only screen and (min-width:768px) {
+    body{
+        background: yellow
+    }
 
-.reduzido{
-    white-space: nowrap;
-    overflow: hidden ;
-    text-overflow: ellipsis;
-    padding-bottom: 30px;
- 
 }
+/* Despositivos Largos (Laptops desktops)*/
+@media only screen and (min-width:992px) {
+    body{
+        background: rgb(255, 51, 0)
+    }
 
-.box:hover .reduzido{
-    white-space: normal;
+}
+/* Despositivos super largos (Telas Maiores laptops)*/
+@media only screen and (min-width:1200px) {
+    body{
+        background: rgb(20, 20, 20)
+    }
+
 }
